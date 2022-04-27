@@ -87,7 +87,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid #000; */
+  
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 30px;
@@ -98,7 +98,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid #000; */
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 30px;
@@ -110,7 +109,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   gap: 100px;
-  /* border: 1px solid #000; */
 }
 
 .work-icon {
@@ -132,7 +130,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid #000; */
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 30px;
@@ -147,7 +144,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid #000; */
   gap: 100px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -191,8 +187,6 @@ a:hover {
   margin: 10px;
   font-size: 18px;
   font-family: "Alegreya", serif;
-  /* color: #444; */
-  /* background-color: rgba(156, 195, 195, 0.195); */
   background-color: #1098ad23;
 }
 
@@ -230,13 +224,7 @@ table.workExperience {
 	letter-spacing:2px;
 	text-align:center;
 }
-/* .workExperience tr:nth-child(3),.workExperience tr:nth-child(2){
-	background-color:#ebe5ea;
-}
 
-.workExperience tr:nth-child(8),.workExperience tr:nth-child(9){
-	background-color:#ebe5ea;
-} */
 .workExperience tr:nth-child(3),.workExperience tr:nth-child(6){
   border-bottom: 2px solid #f8f8f8;
 }
@@ -275,12 +263,29 @@ body.mainSkill{
 	background-color: #d1e0e9;
 }
 div.SkillBlock {
-  background-image:linear-gradient(to right, #88a7b9,#d1e0e9,#88a7b9);
-  padding:20px 20%;
+  padding:20px 5%;
 }
 div.SkillBlock h3{
   font-family: "Alegreya", serif;
   margin-bottom: 0;
+}
+td.comments{
+  width:20%;
+}
+.comments div{
+  border: 2px solid #0A5375;
+  border-radius: 15px;
+  box-shadow: inset;
+  padding: 10px;
+  height: 350px;
+}
+.comments p{
+  font-family: "Alegreya", serif;
+  font-size: medium;
+}
+.comments p::first-letter{
+  font-size: 150%;
+  color: #0A5375;
 }
 .progressBar {
   width: 80%;
@@ -372,6 +377,10 @@ p.contactName{
 }
 .contactinfo p{
   padding-bottom: 3px;
+}
+.imgIcon{
+  width: 20px;
+  border-radius: 10px;
 }
 
 .contacttable{
